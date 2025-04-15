@@ -10,8 +10,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     background-color: #f2e6ff;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1.title {
+    font-size: 4rem;
 }
 
 .keys {
