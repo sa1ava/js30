@@ -3,62 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drum Kit</title>
+    <title>Drum Kit</title>    
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <div class="header">
-        <h1 class="title">#01 Drum Kit</h1>
+        <h1 class="title">#01 Drum Kit</h1>        
     </div>
     <div class="keys">
-        <div data-key="65" class="key">
+        <div data-key="KeyA" class="key">
             <kbd>A</kbd>
             <span class="sound">clap</span>
         </div>
-        <div data-key="83" class="key">
+        <div data-key="KeyS" class="key">
             <kbd>S</kbd>
             <span class="sound">hi-hat (c)</span>
         </div>
-        <div data-key="68" class="key">
+        <div data-key="KeyD" class="key">
             <kbd>D</kbd>
             <span class="sound">kick</span>
         </div>
-        <div data-key="70" class="key">
+        <div data-key="KeyF" class="key">
             <kbd>F</kbd>
             <span class="sound">hi-hat (o)</span>
         </div>
-        <div data-key="71" class="key">
+        <div data-key="KeyG" class="key">
             <kbd>G</kbd>
             <span class="sound">crash</span>
         </div>
-        <div data-key="72" class="key">
+        <div data-key="KeyH" class="key">
             <kbd>H</kbd>
             <span class="sound">rimshot</span>
         </div>
-        <div data-key="74" class="key">
+        <div data-key="KeyJ" class="key">
             <kbd>J</kbd>
             <span class="sound">snare</span>
         </div>
-        <div data-key="75" class="key">
+        <div data-key="KeyK" class="key">
             <kbd>K</kbd>
             <span class="sound">tom</span>
         </div>
-        <div data-key="76" class="key">
+        <div data-key="KeyL" class="key">
             <kbd>L</kbd>
             <span class="sound">bell</span>
         </div>        
     </div>
 
-    <audio data-key="65" src=""></audio>
-    <audio data-key="83" src=""></audio>
-    <audio data-key="68" src=""></audio>
-    <audio data-key="70" src=""></audio>
-    <audio data-key="71" src=""></audio>
-    <audio data-key="72" src=""></audio>
-    <audio data-key="74" src=""></audio>
-    <audio data-key="75" src=""></audio>
-    <audio data-key="76" src=""></audio>
+    <audio data-key="KeyA" src="./sound/Clap.wav"></audio>
+    <audio data-key="KeyS" src="./sound/Closed hi-hat.wav"></audio>
+    <audio data-key="KeyD" src="./sound/Kick.wav"></audio>
+    <audio data-key="KeyF" src="./sound/Open hi-hat.wav"></audio>
+    <audio data-key="KeyG" src="./sound/Crash.wav"></audio>
+    <audio data-key="KeyH" src="./sound/Rimshot.wav"></audio>
+    <audio data-key="KeyJ" src="./sound/Snare.wav"></audio>
+    <audio data-key="KeyK" src="./sound/Tom.wav"></audio>
+    <audio data-key="KeyL" src="./sound/Bell.wav"></audio>
 
-    <script src=""></script>
+    <script src="./src.js"></script>
 </body>
 </html>
