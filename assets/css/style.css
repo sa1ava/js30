@@ -1,0 +1,12 @@
+html {
+    background-color: #eee;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    margin: 0 auto 1em auto;
+    border: #888 solid 1px;
+    max-width: 50em;
+    padding: 1px 1em 1em 1em;
+}
