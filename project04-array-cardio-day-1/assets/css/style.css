@@ -1,0 +1,42 @@
+html {
+    background-color: #eee;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    margin: 0 auto 1em auto;
+    border: #888 solid 1px;
+    max-width: 50em;
+    padding: 1px 1em 1em 1em;
+}
+
+section {
+    border-bottom: oklch(37.2% 0.044 257.287) solid 1px;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+
+.code {
+    background: #dcdcdc;
+    border: oklch(37.2% 0.044 257.287) solid 1px;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 4px 8px;
+}
+
+th {
+    background: #f0f0f0;
+}
