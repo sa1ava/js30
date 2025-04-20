@@ -6,3 +6,4 @@
 
  - 1. [x] JavaScript Drum Kit
  - 2. [x] CSS + JS Clock
+ - 3. [ ] Playing with CSS Variables and JS
